@@ -1,0 +1,33 @@
+#https://www.mongodb.com/docs/v4.4/tutorial/install-mongodb-community-with-docker/#install-mongodb-community-with-docker
+#PUll DOCKER IMAGE
+docker pull mongodb/mongodb-community-server
+#RUN IMAGE AS A CONTAINER
+docker run --name mongo -d mongodb/mongodb-community-server:latest
+#CHECK THAT THE CONTAINER IS RUNNING
+docker container ls
+#CONNECT TO THE MONGODB DEPLOYMEMT WITH MONGOSH
+docker exec -it mongo mongosh
+#VALIDATE YOUR DEPLOYMENT 
+db.runCommand(
+   {
+      hello: 1
+   }
+)
+#OUTPUT
+{
+   isWritablePrimary: true,
+   topologyVersion: {
+      processId: ObjectId("63c00e27195285e827d48908"),
+      counter: Long("0")
+},
+   maxBsonObjectSize: 16777216,
+   maxMessageSizeBytes: 48000000,
+   maxWriteBatchSize: 100000,
+   localTime: ISODate("2023-01-12T16:51:10.132Z"),
+   logicalSessionTimeoutMinutes: 30,
+   connectionId: 18,
+   minWireVersion: 0,
+   maxWireVersion: 20,
+   readOnly: false,
+   ok: 1
+}
