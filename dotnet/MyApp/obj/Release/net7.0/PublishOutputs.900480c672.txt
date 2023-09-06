@@ -1,5 +1,0 @@
-C:\code\dotnet\MyApp\bin\Release\net7.0\publish\MyApp.exe
-C:\code\dotnet\MyApp\bin\Release\net7.0\publish\MyApp.dll
-C:\code\dotnet\MyApp\bin\Release\net7.0\publish\MyApp.deps.json
-C:\code\dotnet\MyApp\bin\Release\net7.0\publish\MyApp.runtimeconfig.json
-C:\code\dotnet\MyApp\bin\Release\net7.0\publish\MyApp.pdb
