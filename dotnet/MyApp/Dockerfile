@@ -2,6 +2,7 @@
 # Tutorial: Containerize a .NET app
 # Create .NET app
 # Create the Dockerfile
+
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build-env
 WORKDIR /MyApp
 
