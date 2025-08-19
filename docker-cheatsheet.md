@@ -68,7 +68,7 @@ docker pull [image]
 </html>
 ```
 6.  **Press ESC to exit insert mode**
-7.  Save and exit
+7.  **Save and exit**
    ```powershell
 :wq
 ```
