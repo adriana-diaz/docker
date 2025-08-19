@@ -73,5 +73,5 @@ docker pull [image]
 :wq
 ```
 8. **Test your page in the browser**
-   
+9. **Write exit to exit the container**   
     
