@@ -9,4 +9,11 @@ docker ps -a
 ```powershell
 docker run -d -p 8088:80 --name welcome-to-docker docker/welcome-to-docker
 ```
-
+## View all images
+```powershell
+docker images
+```
+## Download a specific image from docker.hub
+```powershell
+docker pull [image]
+```
