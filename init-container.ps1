@@ -18,3 +18,6 @@ docker run -d -p 8088:80 --name $containerName docker/welcome-to-docker
 
 # Muestra estado
 docker ps --filter "name=$containerName"
+
+# Para ejecutar
+.\init-container.ps1
