@@ -17,6 +17,8 @@ Write-Host "Inicializando contenedor '$containerName'..."
 docker run -d -p 8088:80 --name $containerName docker/welcome-to-docker
 
 # Muestra estado
+# Para el ejemplo de welcome-to-docker seria: 
+# docker ps --filter "name=$welcome-to-docker"
 docker ps --filter "name=$containerName"
 
 # Para ejecutar
