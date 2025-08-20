@@ -74,4 +74,9 @@ docker pull [image]
 ```
 8. **Test your page in the browser**
 9. **Write exit to exit the container**   
+
+## Name a container
+```powershell
+docker run --name [new_name] [image_name]
+```
     
