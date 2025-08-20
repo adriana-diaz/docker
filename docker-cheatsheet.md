@@ -79,4 +79,16 @@ docker pull [image]
 ```powershell
 docker run --name [new_name] [image_name]
 ```
-    
+## Filter container
+by status
+```powershell
+docker container ls --filter "status=exited"
+```
+by name
+```powershell
+docker container ls --filter "name=welcome"
+```
+by image
+```powershell
+docker container ls --filter "ancestor=docker/welcome-to-docker"
+```
