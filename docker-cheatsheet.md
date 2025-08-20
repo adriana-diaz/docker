@@ -93,3 +93,12 @@ by image
 docker container ls --filter "ancestor=docker/welcome-to-docker"
 ```
 <img width="1831" height="170" alt="image" src="https://github.com/user-attachments/assets/46ae8d3d-92bb-423f-a9de-a47a3d4c84a4" />
+
+## Logs 
+```powershell
+docker log welcome-to-docker
+```
+in real time:
+```powershell
+docker log -f welcome-to-docker
+```
